@@ -1,0 +1,85 @@
+body {
+  color: #5c0bf3;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: cadetblue;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+text-align: left;
+}
+
+.masthead {
+padding:6em 0;
+background-image: url('../pre-work/code.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+border-style:solid;
+border-color: rgb(40, 199, 8);
+box-shadow: darkcyan;
+
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-size: 6em;
+  color: #a5b1e9;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+
+
+}
+
+.details {
+  max-width: 48em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+
+  
+}
+
+.details > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  background-color: rgb(156, 172, 182);
+  border-style: solid;
+
+}
+
+.details > h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+  
+}
+
+section > h1 {
+  margin-top: 2em;
+  border-style: dotted;
+}
+
+#footer {
+padding: 20px 0;
+text-align: center;
+background-color: #72e245;
+text-decoration: none;
+border-style: ridge;
+font-size: larger;
+box-shadow: cornsilk;
+}
+
+#footer a {
+color: #ffffff;
+}
+.social > li {
+display: inline-block;
+margin: 0 5px;
+}
